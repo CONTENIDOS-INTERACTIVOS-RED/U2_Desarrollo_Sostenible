@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Fundamentos del desarrollo sostenible',
+    numeroUnidad: '2',
+    tituloUnidad: 'Dimensiones del desarrollo sostenible',
   },
   menuPrincipal: {
     menu: [
@@ -31,20 +31,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Conceptos fundamentales del desarrollo sostenible',
+        titulo:
+          'Dimensión ambiental: conservación de los recursos naturales y cambio climático',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo:
-              'Definición y principios fundamentales de desarrollo sostenible',
+            titulo: 'Conservación de los recursos naturales',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Diferencias entre sostenibilidad y sustentabilidad     ',
+            titulo: 'Cambio climático',
             hash: 't_1_2',
           },
         ],
@@ -53,21 +53,26 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Historia y evolución del desarrollo sostenible     ',
+        titulo: 'Dimensión social',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Orígenes del concepto',
+            titulo: 'Igualdad',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo:
-              'Evolución de la conciencia ambiental y el desarrollo sostenible en el ámbito global',
+            titulo: 'Inclusión',
             hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Reducción de la pobreza',
+            hash: 't_2_3',
           },
         ],
       },
@@ -75,17 +80,22 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Objetivos de Desarrollo Sostenible (ODS)',
+        titulo: 'Dimensión económica',
         desarrolloContenidos: true,
-        subMenu: [],
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo:
-          'Relación entre desarrollo económico, equidad social y protección ambiental',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Desarrollo económico responsable',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Sostenibilidad financiera',
+            hash: 't_3_2',
+          },
+        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -125,129 +135,135 @@ export default {
   referencias: [
     {
       referencia:
-        'Brundtland, G. H. (1987). Our common future. Oxford University Press.',
-      link: '',
-    },
-    {
-      referencia: 'Carson, R. (1962). Silent spring. Houghton Mifflin.',
+        'Banco Mundial. (2013). La inclusión importa: El fundamento para la prosperidad compartida. Banco Mundial.',
       link: '',
     },
     {
       referencia:
-        'CEPAL, NU. (2019). La Agenda 2030 y los Objetivos de Desarrollo Sostenible: una oportunidad para América Latina y el Caribe. Objetivos, metas e indicadores mundiales.',
+        'Banco Mundial. (2018). La pobreza y la prosperidad compartida 2018: Armando el rompecabezas de la pobreza. Banco Mundial.',
       link: '',
     },
     {
       referencia:
-        'Club de Roma. (1972). Los límites del crecimiento: Informe al Club de Roma sobre el predicamento de la humanidad. Editorial Fundamentos.',
+        'Corporación Financiera Internacional (IFC). (2012). Normas de Desempeño sobre Sostenibilidad Ambiental y Social. IFC.',
       link: '',
     },
     {
       referencia:
-        'Naciones Unidas. (1992). Agenda 21: Programa de acción para el desarrollo sostenible. Conferencia de las Naciones Unidas sobre el Medio Ambiente y el Desarrollo.',
+        'Departamento de Asuntos Económicos y Sociales de las Naciones Unidas (UNDESA). (2016). Informe sobre la Situación Social Mundial 2016: No dejar a nadie atrás, el imperativo del desarrollo inclusivo. Naciones Unidas.',
       link: '',
     },
     {
       referencia:
-        'Naciones Unidas. (2015). Transformar nuestro mundo: la Agenda 2030 para el Desarrollo Sostenible. Naciones Unidas.',
-      link: 'https://sustainabledevelopment.un.org',
-    },
-    {
-      referencia:
-        'Organización Internacional del Trabajo. (2018). Informe global sobre trabajo decente.',
-      link: 'https://www.ilo.org',
-    },
-    {
-      referencia:
-        'Parra-Lancourt, M. (2020). Economía circular: Una oportunidad para el desarrollo sostenible en América Latina y el Caribe. CEPAL.',
+        'Foro Económico Mundial. (2020). Informe Global de la Brecha de Género 2020. FEM.',
       link: '',
     },
     {
       referencia:
-        'United Nations. (2020). The sustainable development goals report 2020. United Nations Department of Economic and Social Affairs.',
-      link: 'https://unstats.un.org',
+        'Iniciativa Financiera del Programa de las Naciones Unidas para el Medio Ambiente (UNEP FI). (2016). Principios para una Financiación de Impacto Positivo. UNEP FI.',
+      link: '',
     },
     {
       referencia:
-        'World Bank. (2021). Inclusive growth and sustainable development: A cross-country analysis. The World Bank.',
-      link: 'https://www.worldbank.org',
+        'Intergovernmental Panel on Climate Change (IPCC). (2021). Cambio climático 2021: Bases físicas. Cambridge University Press.',
+      link: '',
+    },
+    {
+      referencia:
+        'Naciones Unidas. (2015). Transformar nuestro mundo: La Agenda 2030 para el Desarrollo Sostenible. Asamblea General de las Naciones Unidas.',
+      link: '',
+    },
+    {
+      referencia:
+        'Organización para la Cooperación y el Desarrollo Económicos (OCDE). (2011). Hacia un crecimiento verde. OCDE.',
+      link: '',
+    },
+    {
+      referencia:
+        'Programa de las Naciones Unidas para el Desarrollo (PNUD). (2019). Informe sobre Desarrollo Humano 2019: Más allá del ingreso, más allá de los promedios, más allá de hoy. PNUD.',
+      link: '',
+    },
+    {
+      referencia:
+        'United Nations Environment Programme (UNEP). (2019). Perspectivas del Medio Ambiente Mundial 6: Planeta sano, gente sana. UNEP.',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'Biodiversidad',
+      termino: 'Adaptación',
       significado:
-        'Variedad de vida en la Tierra, incluyendo ecosistemas, especies y genes, que es crucial para mantener el equilibrio ecológico y la sostenibilidad de los recursos naturales.',
+        'Proceso mediante el cual las personas, comunidades y sistemas naturales ajustan sus comportamientos y estructuras para enfrentar y minimizar los efectos adversos del cambio climático, reduciendo la vulnerabilidad y aumentando la resiliencia.',
     },
     {
-      termino: 'Cambio Climático',
+      termino: 'Degradación Ambiental',
       significado:
-        'Alteración significativa y duradera del clima de la Tierra, en gran parte causada por la actividad humana, como la quema de combustibles fósiles y la deforestación.',
+        'Deterioro del medio ambiente debido a actividades humanas que causan daños en los ecosistemas, pérdida de biodiversidad y disminución de la calidad del aire, el agua y el suelo. Incluye fenómenos como la contaminación, la deforestación y la sobreexplotación de recursos.',
     },
     {
-      termino: 'Consumo Responsable',
+      termino: 'Deforestación',
       significado:
-        'Práctica de elegir productos y servicios que tengan el menor impacto ambiental posible, considerando aspectos como la reducción de residuos, el uso de recursos sostenibles y el respeto a los derechos laborales.',
+        'Proceso de eliminación o destrucción de áreas forestales, generalmente causado por la tala indiscriminada, la expansión agrícola y el desarrollo urbano. La deforestación conduce a la pérdida de hábitats, afecta el ciclo del agua y contribuye al cambio climático.',
     },
     {
-      termino: 'Desarrollo Económico',
+      termino: 'Economía Baja en Carbono',
       significado:
-        'Proceso de mejora en la economía de un país o región que aumenta el nivel de vida de sus habitantes, generando empleo y riqueza de manera inclusiva y sostenible.',
+        'Modelo económico que busca reducir las emisiones de gases de efecto invernadero mediante el uso eficiente de la energía y la adopción de fuentes de energía limpias y renovables. Promueve prácticas sostenibles en todos los sectores para combatir el cambio climático.',
     },
     {
-      termino: 'Desigualdad',
+      termino: 'Exclusión Social',
       significado:
-        'Diferencias significativas en el acceso a recursos, oportunidades y servicios entre diferentes grupos sociales, regiones o países, que afectan el desarrollo equitativo.',
+        'Situación en la que individuos o grupos son marginados y no pueden participar plenamente en la sociedad debido a factores como la pobreza, la discriminación o el acceso limitado a servicios básicos.',
     },
     {
-      termino: 'Economía Circular',
+      termino: 'Gases de Efecto Invernadero',
       significado:
-        'Sistema económico que busca reducir, reutilizar y reciclar materiales y productos, minimizando los desechos y la explotación de recursos naturales.',
+        'Compuestos químicos en la atmósfera, como el dióxido de carbono (CO₂), metano (CH₄) y óxido nitroso (N₂O), que atrapan el calor del sol y provocan el calentamiento global. Sus emisiones provienen principalmente de actividades humanas.',
     },
     {
-      termino: 'Economía Verde',
+      termino: 'Huella de Carbono',
       significado:
-        'Modelo económico que promueve la reducción de riesgos ambientales y escasez ecológica, mejorando el bienestar humano y la equidad social.',
+        'Medida del total de emisiones de gases de efecto invernadero producidas directa o indirectamente por una persona, organización, evento o producto. Es un indicador clave para evaluar el impacto ambiental y diseñar estrategias de reducción de emisiones.',
     },
     {
-      termino: 'Eficiencia Energética',
+      termino: 'Innovación Tecnológica',
       significado:
-        'Uso racional y óptimo de la energía para minimizar el consumo sin sacrificar los resultados, reduciendo así el impacto ambiental y los costos.',
+        'Desarrollo y aplicación de nuevas ideas, métodos y tecnologías que mejoran productos, procesos o servicios. Es fundamental para abordar desafíos ambientales y sociales y para impulsar el desarrollo económico responsable.',
     },
     {
-      termino: 'Energías Renovables',
+      termino: 'Justicia Social',
       significado:
-        'Fuentes de energía que se obtienen de recursos naturales que no se agotan, como el sol, el viento y el agua, y que son menos contaminantes.',
+        'Principio que promueve una distribución equitativa de recursos, oportunidades y derechos dentro de una sociedad. Busca eliminar las desigualdades y garantizar que todas las personas puedan participar plenamente en la vida económica, social y política.',
     },
     {
-      termino: 'Equidad Social',
+      termino: 'Mitigación',
       significado:
-        'Principio que garantiza igualdad de oportunidades y acceso justo a recursos y servicios para todos los miembros de la sociedad, sin discriminación.',
+        'Acciones y estrategias dirigidas a reducir o limitar las emisiones de gases de efecto invernadero, con el objetivo de minimizar el alcance y los impactos del cambio climático. Incluye la transición a energías renovables y la mejora de la eficiencia energética.',
     },
     {
-      termino: 'Protección Ambiental',
+      termino: 'Participación Ciudadana',
       significado:
-        'Conjunto de acciones y políticas que buscan conservar los recursos naturales y minimizar el impacto negativo de las actividades humanas en el medio ambiente.',
+        'Involucramiento activo de las personas en los procesos de toma de decisiones y en la vida pública. Fortalece la democracia y asegura que las políticas y programas reflejen las necesidades y aspiraciones de la población.',
     },
     {
-      termino: 'Recursos Renovables',
+      termino: 'Protección Social',
       significado:
-        'Recursos naturales que se regeneran de manera natural a un ritmo que permite su uso continuado, como la energía solar, eólica y el agua.',
+        'Conjunto de políticas y programas diseñados para reducir la pobreza y la vulnerabilidad, proporcionando asistencia y apoyo a individuos y familias en situaciones de necesidad. Incluye transferencias monetarias, seguros de salud y programas de empleo.',
     },
     {
-      termino: 'Responsabilidad Social Empresarial (RSE)',
+      termino: 'Recursos Naturales',
       significado:
-        'Estrategia de gestión por la cual las empresas integran voluntariamente prácticas sostenibles y éticas en sus operaciones, considerando el impacto social y ambiental.',
+        'Elementos proporcionados por la naturaleza, como agua, aire, minerales, bosques y fauna, que son esenciales para la supervivencia y el desarrollo humano. Su gestión sostenible es crucial para mantener el equilibrio ecológico.',
     },
     {
-      termino: 'Sostenibilidad',
+      termino: 'Resiliencia',
       significado:
-        'Capacidad de satisfacer las necesidades del presente sin comprometer la capacidad de las generaciones futuras para satisfacer sus propias necesidades, equilibrando lo económico, social y ambiental.',
+        'Capacidad de un sistema, comunidad o individuo para resistir, adaptarse y recuperarse de situaciones adversas, como desastres naturales o impactos del cambio climático, manteniendo sus funciones esenciales y estructura.',
     },
     {
-      termino: 'Sustentabilidad',
+      termino: 'Seguridad Alimentaria',
       significado:
-        'Uso eficiente y responsable de los recursos naturales, asegurando que estos puedan regenerarse y mantenerse a lo largo del tiempo sin agotarse.',
+        'Situación en la cual todas las personas tienen acceso físico, social y económico a alimentos suficientes, seguros y nutritivos para satisfacer sus necesidades dietéticas y preferencias alimenticias para una vida activa y saludable.',
     },
   ],
   complementario: [

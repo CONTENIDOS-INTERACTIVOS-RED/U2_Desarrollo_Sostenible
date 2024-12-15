@@ -22,10 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 El desarrollo sostenible ha emergido como un concepto esencial para afrontar los retos globales contemporáneos, como el cambio climático, la desigualdad social y la degradación ambiental. Este curso, "Fundamentos del Desarrollo Sostenible y Sustentable", busca proporcionar a los estudiantes una base sólida sobre estos conceptos, explorando su evolución y relevancia en el contexto actual.
-              p.descripcion.mb-4 A lo largo de la primera unidad, se abordará la definición de desarrollo sostenible y sustentable, su historia y los Objetivos de Desarrollo Sostenible (ODS). Además, se analizará la interrelación entre el crecimiento económico, la equidad social y la protección ambiental. <br> Prepárate para adquirir las herramientas necesarias para integrar prácticas sostenibles en cualquier ámbito profesional y contribuir activamente a un futuro más equitativo y resiliente.
+              p.descripcion.mb-4 El desarrollo sostenible es un enfoque integral que equilibra el crecimiento económico, la equidad social y la protección del medio ambiente. En esta unidad, se estudian las tres dimensiones fundamentales del desarrollo sostenible: la económica, que promueve un crecimiento responsable y equitativo; la social, que enfatiza la inclusión y el bienestar colectivo; y la ambiental, que aborda la conservación de los recursos naturales y la resiliencia frente al cambio climático. Al comprender cómo estas dimensiones interactúan, el estudiante podrá diseñar estrategias efectivas que impacten positivamente en la sociedad y el entorno global.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Inicia tu camino hacia la sostenibilidad ahora!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárate para adquirir herramientas clave para un desarrollo sostenible y transformar desafíos en oportunidades!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

@@ -1,65 +1,133 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'3. Objetivos de Desarrollo Sostenible (ODS)'")
+  BannerInterno(:subTitulo="'3. Dimensión económica'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    img(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen')
+    .row.mb-4
+      .col-12.col-xl-7(data-aos="fade-right")
+        p.mb-4 La dimensión económica es un componente esencial del desarrollo sostenible, puesto que se ocupa de la generación de riqueza y la mejora del nivel de vida de las personas, de manera que sea compatible con la protección del medio ambiente y el bienestar social. 
+        .bg-rojo.p-4.mb-4
+          span Este enfoque busca equilibrar el crecimiento económico con la preservación de los recursos naturales y la equidad social, garantizando que las actividades económicas actuales no comprometan la capacidad de las generaciones futuras, para satisfacer sus propias necesidades (Artaraz, 2002).
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src="@/assets/curso/unidad/img-37.png" alt="Texto que describa la imagen")
 
     .row.mb-4
-      .col-10.mx-auto
-        .bg-rojo.p-4
-          span Los Objetivos de Desarrollo Sostenible (ODS), son un conjunto de 17 metas adoptadas en el 2015 por los Estados miembros de las Naciones Unidas, como parte de la Agenda 2030, con el fin de encaminar al mundo hacia un futuro más justo, equitativo y sostenible.
-    
-    .row.mb-4
-      .col-12.col-lg-7(data-aos="fade-right")
-        p.mb-4 Estos objetivos representan un esfuerzo global sin precedentes, para hacer frente a los grandes desafíos que enfrenta la humanidad, como la pobreza, la desigualdad, el cambio climático y la degradación ambiental. A diferencia de los Objetivos de Desarrollo del Milenio (ODM), que se centraban en los países en desarrollo y abordaban un conjunto limitado de indicadores, los ODS adoptan una perspectiva universal y holística, integrando plenamente los aspectos ambientales, sociales y económicos del desarrollo. (United Nations, 2015) 
+      .col-5.d-none.d-xl-block(data-aos="fade-right")
+        img(src="@/assets/curso/unidad/img-38.png" alt="Texto que describa la imagen")
+      .col-12.col-xl-7(data-aos="fade-left")
+        p.mb-4 El desarrollo económico sostenible implica una transformación en los patrones tradicionales de producción y consumo. Es necesario adoptar modelos que promuevan la eficiencia en el uso de los recursos, reduzcan los impactos ambientales negativos y fomenten la inclusión social. Esto requiere una combinación de innovación tecnológica, políticas públicas adecuadas y cambios en el comportamiento de empresas y consumidores.
+        p.mb-4 Uno de los aspectos clave es reconocer que el crecimiento económico no debe medirse únicamente en términos cuantitativos, como el aumento del Producto Interno Bruto (PIB), sino también en términos cualitativos, considerando factores como la calidad de vida, la distribución equitativa de la riqueza y la sostenibilidad ambiental.
 
-        span La Agenda 2030, compuesta por 169 metas específicas, invita a gobiernos, organizaciones, empresas y ciudadanos a trabajar de manera conjunta y coordinada para abordar los problemas de manera interconectada. Los ODS trascienden los objetivos de reducción de la pobreza y mejora de la salud y la educación; también promueven la transición hacia energías limpias, un trabajo digno y un crecimiento económico sostenible. El enfoque en la igualdad de género, la acción climática y la protección de los ecosistemas marítimos y terrestres refleja una conciencia profunda sobre la interconexión y complejidad de los retos globales. (United Nations, 2020)
-      .col-5.d-none.d-lg-block(data-aos="fade-left")
-        img.h-100(src='@/assets/curso/unidad/img-28.png', alt='Texto que describa la imagen')
+    #t_3_1.titulo-segundo
+      div.d-flex
+        span.me-3 3.1  
+        h2 Desarrollo económico responsable
 
     .row.mb-4
-      .col-5.d-none.d-lg-block(data-aos="fade-right")
-        img.h-100(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-7(data-aos="fade-left")
-        p.mb-4 El desarrollo sostenible busca equilibrar el crecimiento económico, la justicia social y la protección del medio ambiente, reconociendo que estos pilares son inseparables para un futuro próspero. Las políticas económicas deben ser sensibles a sus impactos sociales y ambientales, promoviendo una inclusión efectiva y una participación activa de la comunidad. Los avances en tecnologías limpias y la adopción de la economía circular demuestran que es posible progresar sin comprometer al planeta. Un ejemplo inspirador es Costa Rica, un país que ha logrado combinar el crecimiento económico con una protección ambiental efectiva. (CEPAL, 2019)
-        span Alcanzar los ODS requiere una colaboración internacional sólida y el compromiso de todos los sectores para lograr cambios profundos y duraderos. Esta colaboración no solo busca mejorar la calidad de vida hoy, sino que también asegurar un entorno donde las futuras generaciones puedan prosperar en un mundo más justo, sostenible y lleno de oportunidades. 
+      .col-12.col-xl-7(data-aos="fade-right")
+        p.mb-4 El desarrollo económico responsable se posiciona como una respuesta al desafío global de equilibrar el progreso económico, con la preservación del medio ambiente y la equidad social. Este enfoque reconoce que el modelo económico tradicional, basado en la explotación intensiva de recursos naturales, la producción masiva de bienes y servicios, y un consumo desenfrenado, ha generado daños irreparables al medio ambiente y ha incrementado las brechas sociales. 
+        span Por tanto, el desarrollo económico responsable plantea un cambio paradigmático hacia prácticas económicas sostenibles, inclusivas y resilientes, capaces de generar bienestar, sin comprometer los recursos para las futuras generaciones.
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src="@/assets/curso/unidad/img-39.png" alt="Texto que describa la imagen")
 
     .row.bg-amarillo.bg-full-width.py-4.mb-4
       div.px-5.pb-md-3.py-4.d-flex
-        .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
-          h2.mb-4.pb-2.me-auto Objetivos de Desarrollo Sostenible
-          p.mb-5 En el marco de la Agenda 2030, los Objetivos de Desarrollo Sostenible (ODS) representan una hoja de ruta integral para abordar los retos más urgentes de la humanidad y promover un futuro equilibrado, justo y sostenible. Estos 17 objetivos interrelacionados abordan temas fundamentales como la erradicación de la pobreza, la protección ambiental, la igualdad de género y el acceso universal a la educación y la salud, subrayando que el progreso en un área contribuye al avance en otras. En el PDF ODS, exploraremos cada uno de estos objetivos, destacando sus enfoques principales y su relevancia en el contexto global, ofreciendo una visión integral que invita a la acción conjunta para lograr un impacto significativo y duradero.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_ODS.pdf')" target="_blank")
+        .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
+          p.mb-5 El desarrollo económico responsable es un enfoque transformador que busca equilibrar el progreso económico con la sostenibilidad ambiental y la equidad social. Este paradigma reconoce la interdependencia entre estos tres pilares y propone soluciones que promuevan un crecimiento inclusivo, ético e innovador. En el PDF Desarrollo económico responsable, se profundiza en los principales componentes de este modelo, destacando la transición hacia una economía baja en carbono, la adopción de la economía circular, la importancia de la innovación tecnológica, el papel de las empresas socialmente responsables y el impacto de las políticas públicas en la promoción de prácticas sostenibles. Con esta visión integral, el desarrollo económico responsable se presenta como una respuesta a los desafíos globales actuales, abriendo oportunidades para construir un futuro más resiliente y equitativo.
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> ODS
+            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Desarrollo económico responsable
              
-        .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
-          img.h-100(src='@/assets/curso/unidad/img-30.png', alt='Texto que describa la imagen')
-    
+        .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
+          img.h-100(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
+
+
+    #t_3_2.titulo-segundo
+      div.d-flex
+        span.me-3 3.2  
+        h2 Sostenibilidad financiera
+
+    p.mb-4 La sostenibilidad financiera se refiere a la capacidad de las economías y organizaciones, para mantener sus actividades a largo plazo, asegurando la estabilidad económica y evitando riesgos excesivos que puedan conducir a crisis financieras. En el contexto del desarrollo sostenible, la sostenibilidad financiera implica alinear las decisiones de inversión y financiamiento, con objetivos ambientales y sociales.
+
+    .row.mb-4
+      .col-12.col-xl-7(data-aos="fade-right")
+        p.mb-4 Un aspecto clave es la integración de criterios ambientales, sociales y de gobernanza (ASG) en las decisiones financieras. Esto significa que inversores e instituciones financieras no solo consideran la rentabilidad económica, sino también el impacto social y ambiental de sus inversiones. Al hacerlo, se promueve el flujo de capital hacia proyectos y empresas que contribuyen con el desarrollo sostenible.
+        .bg-rojo.p-4
+          span Los productos financieros sostenibles, como los bonos verdes y los préstamos sostenibles, han ganado relevancia en los últimos años. Los bonos verdes son instrumentos de deuda emitidos para financiar proyectos con beneficios ambientales, como energías renovables, eficiencia energética y transporte sostenible.
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src="@/assets/curso/unidad/img-41.png" alt="Texto que describa la imagen")
+
+    .row.mb-4
+      .col-5.d-none.d-xl-block(data-aos="fade-right")
+        img(src="@/assets/curso/unidad/img-42.png" alt="Texto que describa la imagen")
+      .col-12.col-xl-7(data-aos="fade-left")
+        p.mb-4 Estos instrumentos permiten a los inversores apoyar iniciativas sostenibles y, al mismo tiempo, obtener retornos financieros.
+        p.mb-4 Las instituciones financieras pueden desempeñar un papel significativo al incorporar la sostenibilidad en sus políticas y prácticas. Esto incluye:
+        ol.lista-ol--cuadro
+          li.d-flex(data-aos="fade-up")
+            .lista-ol--cuadro__vineta
+              span 1
+            p.mb-0 La evaluación de riesgos ambientales y sociales en el análisis crediticio.
+          li.d-flex(data-aos="fade-up")
+            .lista-ol--cuadro__vineta
+              span 2
+            p.mb-0 El desarrollo de productos financieros verdes. 
+          li.d-flex(data-aos="fade-up")
+            .lista-ol--cuadro__vineta
+              span 3
+            p.mb-0 La asesoría a clientes, en temas de sostenibilidad.
+
+    p.mb-4 La regulación y supervisión del sector financiero son fundamentales para promover la sostenibilidad financiera. Los reguladores pueden:
+
+    .bg-azul.bg-full-width.mb-5
+      .px-5.pb-md-3.py-4
+        .row.mb-4
+          .col-12.d-md-none(data-aos="fade-up")
+            img(src="@/assets/curso/unidad/img-43.png" alt="Texto que describa la imagen")
+          .col-12.d-none.d-md-block.col-md-10.mx-auto(data-aos="fade-up")
+            img(src="@/assets/curso/unidad/img-44.png" alt="Texto que describa la imagen")
+
+    p.mb-4 Otros componentes importantes son:
+
+    .row.mb-5
+      .col-12.col-lg-7(data-aos="fade-right")
+        AcordionA(tipo="b")
+          .div(titulo="Educación financiera")
+            p La educación financiera es otro componente importante. Al aumentar el conocimiento y la conciencia sobre la importancia de la sostenibilidad en las finanzas, tanto entre profesionales del sector como entre el público en general, se puede fomentar una cultura de inversión responsable. Esto permite a los inversores tomar decisiones informadas que apoyan el desarrollo sostenible.
+          .div(titulo="Colaboración internacional")
+            p La colaboración internacional es esencial para abordar desafíos globales como el cambio climático y la degradación ambiental. La movilización de financiamiento internacional, especialmente hacia países en desarrollo, es crucial para apoyar la implementación de proyectos sostenibles. Instituciones financieras internacionales y bancos de desarrollo pueden facilitar el acceso a recursos financieros y promover prácticas sostenibles a nivel global.
+          .div(titulo="Política fiscal")
+            p Es importante el papel de la política fiscal en la sostenibilidad financiera. Los gobiernos pueden utilizar herramientas fiscales, como impuestos y subsidios, para influir en el comportamiento de empresas y consumidores. Por ejemplo, impuestos sobre emisiones contaminantes pueden incentivar a las empresas a reducir su huella ambiental, mientras que subsidios para energías renovables pueden estimular la inversión en tecnologías limpias.
+          .div(titulo="Innovación en el sector financiero")
+            p La innovación en el sector financiero también ofrece oportunidades para promover la sostenibilidad. La tecnología financiera, o fintech, puede mejorar la eficiencia y la accesibilidad de los servicios financieros, facilitando la inclusión financiera y permitiendo a más personas participar en la economía formal. Plataformas de financiación colectiva, aplicaciones de inversión sostenible y soluciones digitales de pago, pueden contribuir a canalizar recursos hacia iniciativas sostenibles.
+      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-45.png', alt='Texto que describa la imagen')
+
     .bg-full-width.border-top-9-azul
       .px-4.px-md-5.pt-5.pb-0
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
-            p.text-small
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=2n0TUKoIxOs") Ayuntamiento de Vitoria-Gasteiz / Gasteizko Udala. (2018, 11 octubre). Objetivos de Desarrollo Sostenible (ODS) [Vídeo]. YouTube.
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=LYLzqBezwl8") Universidad Continental - Modalidad a Distancia. (2021, 15 agosto). Objetivos de Desarrollo Sostenible. sostenibilidad / Sustentabilidad [Vídeo]. YouTube. 
+            // Tema 3 y 3.2
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/250194") Sotillo Lorenzo, J. Á. (2017). El ecosistema de la cooperación: la agenda 2030 para el desarrollo sostenible: (1 ed.). Los libros de la Catarata.
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/62332") Fernández García, R. (2013). La dimensión económica del desarrollo sostenible. ECU.
+
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/")  Gamez, M. J. (2022, 24 mayo). Objetivos y metas de desarrollo sostenible - Desarrollo Sostenible.
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/66081") Pacha, M. J. (2012). Sostenibilidad financiera para áreas protegidas en América Latina. D - FAO.
+
+            // Videos
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=uJlpaOMlIGs") UVED. (2019). El consumo responsable en la economía circular [Vídeo]
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=MCcwvXWu2cU") Naturgy. (2021). Finanzas Sostenibles y el sector de la energía [Vídeo]
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
-
-
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 </template>
 

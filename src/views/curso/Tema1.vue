@@ -1,155 +1,249 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Conceptos fundamentales del desarrollo sostenible'")
+  BannerInterno(:subTitulo="'1. Dimensión ambiental: conservación de los recursos naturales y cambio climático'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-    p.mb-4 El concepto de desarrollo sostenible se centra en la armonización de tres componentes esenciales: 
-    .row.mb-4.justify-content-center
-      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
-        .custom-image-card.d-flex.p-3
-          img.pe-2(src='@/assets/curso/unidad/img-5.svg', style="width: 80px")
-          p.px-1.mb-0.d-flex.text-bold.align-items-center Crecimiento económico
-      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-up")
-        .custom-image-card.d-flex.p-3
-          img.pe-2(src='@/assets/curso/unidad/img-6.svg', style="width: 80px")
-          p.px-1.mb-0.d-flex.text-bold.align-items-center Inclusión social
-      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-left")
-        .custom-image-card.d-flex.p-3
-          img.pe-2(src='@/assets/curso/unidad/img-7.svg', style="width: 80px")
-          p.px-1.mb-0.d-flex.text-bold.align-items-center Protección del medio ambiente 
+    p.mb-4 La dimensión ambiental es un componente esencial del desarrollo sostenible y el soporte fundamental para la vida y las actividades humanas. Esta dimensión aborda la relación intrínseca entre las sociedades humanas, el entorno natural y la economía global, con un enfoque en la conservación de los recursos y la resiliencia de los ecosistemas. Comprender y gestionar esta dimensión, implica reconocer que el medio ambiente no solo proporciona recursos tangibles, como agua, alimentos y materias primas, sino también servicios ecosistémicos indispensables, como la regulación del clima, la purificación del aire y del agua, la polinización de los cultivos y el almacenamiento de carbono. Estos procesos, aunque invisibles para muchos, son la base que sustenta la vida en el planeta. (Artaraz, 2002)
 
     .row.mb-4
-      .col-12.col-xl-7(data-aos="fade-right")
-        p.mb-4 Surgió como respuesta a las preocupaciones sobre el progreso económico y, aunque ha proporcionado múltiples beneficios, también ha ocasionado significativos problemas sociales y medioambientales.
+      .col-5.d-none.d-md-block(data-aos="fade-right")
+        img(src="@/assets/curso/unidad/img-3.png" alt="Texto que describa la imagen")
+
+      .col-12.col-md-7(data-aos="fade-left")
         .bg-rojo.p-4
-          span La idea principal que subyace en el desarrollo sostenible es que las generaciones presentes deben satisfacer sus necesidades sin poner en riesgo la capacidad de las generaciones futuras, para atender sus propias necesidades. Este principio busca un equilibrio a largo plazo, promoviendo un modelo de desarrollo que pueda mantenerse, sin agotar los recursos del planeta ni provocar daños irreparables a los ecosistemas. 
-      .col-5.d-none.d-xl-block(data-aos="fade-left")
-        img(src="@/assets/curso/unidad/img-8.png", alt="Texto que describa la imagen")
+          p.mb-4 A continuación, el PDF La dimensión ambiental del desarrollo sostenible, aborda la dimensión ambiental del desarrollo sostenible, destacando la importancia de equilibrar las necesidades humanas con los límites del planeta. Se estudian las problemáticas asociadas al crecimiento poblacional, la pérdida de biodiversidad y el cambio climático, junto con estrategias para proteger los ecosistemas y promover su resiliencia. Este enfoque integral busca garantizar un futuro sostenible, priorizando la educación ambiental, la cooperación internacional y la implementación de políticas responsables.
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+            img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
+            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> La dimensión ambiental del desarrollo sostenible
 
     #t_1_1.titulo-segundo
       div.d-flex
         span.me-3 1.1  
-        h2 Definición y principios fundamentales de desarrollo sostenible 
+        h2 Conservación de los recursos naturales
 
-    p.mb-4 “El término desarrollo sostenible se refiere a la capacidad de satisfacer las necesidades del presente, sin comprometer la capacidad de las futuras generaciones, para satisfacer sus propias necesidades. Este concepto nace de la necesidad de encontrar un equilibrio entre el crecimiento económico, la justicia social y la protección del medio ambiente. Dado que el mundo enfrenta retos globales como el cambio climático, la pérdida de biodiversidad y la creciente desigualdad económica, el desarrollo sostenible proporciona un marco integral que permite abordar estos problemas, de manera coordinada y coherente”. (CEPAL, 2019) 
-    p.mb-4 Para entender más profundamente el desarrollo sostenible, es importante reconocer que se fundamenta en tres pilares esenciales: 
+    p.mb-4 La conservación de los recursos naturales es un proceso crítico para garantizar la sostenibilidad de la vida en el planeta. Los recursos naturales, que incluyen elementos esenciales como el agua, el aire, el suelo, los bosques, la biodiversidad y los minerales, son el fundamento de todas las actividades humanas. Sin ellos, las sociedades no podrían desarrollarse ni satisfacer sus necesidades básicas.
+    .row.mb-4
+      .col-12.col-xl-7(data-aos="fade-right")
+        p.mb-4 A medida que la población mundial continúa creciendo y las actividades económicas se expanden, la presión sobre estos recursos aumenta  de manera alarmante, amenazando no solo su disponibilidad futura, sino también el equilibrio ecológico que mantiene la vida en la Tierra.
+        .bg-rojo.p-4.mb-4
+          span El concepto de conservación no se limita únicamente a proteger los recursos naturales del agotamiento; también incluye su uso sostenible, la restauración de los ecosistemas degradados y la promoción de prácticas que permitan mantener la funcionalidad de los sistemas naturales. Esto implica un enfoque integral que contemple la interacción entre las actividades humanas y el medio ambiente, reconociendo que los recursos son limitados y que su explotación desmedida puede tener consecuencias irreversibles para las generaciones futuras. 
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src="@/assets/curso/unidad/img-4.png" alt="Texto que describa la imagen")
+        
 
-    .row.mb-4.justify-content-center
-     .col-10.col-md-8.col-lg-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-right")
-        .custom-image-card.d-flex.p-3
-          img.pe-2(src='@/assets/curso/unidad/img-9.svg', style="width: 80px")
-          p.px-1.mb-0.d-flex.text-bold.align-items-center Pilar ambiental
-     .col-10.col-md-8.col-lg-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-up")
-        .custom-image-card.d-flex.p-3
-          img.pe-2(src='@/assets/curso/unidad/img-10.svg', style="width: 80px")
-          p.px-1.mb-0.d-flex.text-bold.align-items-center Pilar social
-     .col-10.col-md-8.col-lg-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-left")
-        .custom-image-card.d-flex.p-3
-          img.pe-2(src='@/assets/curso/unidad/img-11.svg', style="width: 80px")
-          p.px-1.mb-0.d-flex.text-bold.align-items-center Pilar económico
+    .bg-fondo-1.bg-full-width
+      .px-5.pb-md-3.py-4
+        p.mb-4 Los recursos naturales pueden clasificarse en: 
+        .row.mb-4
+          .col-10.col-md-8.col-lg-6.mb-4.mx-auto(data-aos="fade-right")
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-5.png', alt='Texto que describa la imagen')
+              div.mb-4
+                p.text-bold.text-center Recursos renovables
+                p.text-small.px-4.text-center.pb-2 Los recursos renovables, como los bosques, el agua y el aire, tienen la capacidad de regenerarse de manera natural si se gestionan adecuadamente. Sin embargo, esta capacidad no es ilimitada; la sobreexplotación o la contaminación, pueden reducir su calidad y disponibilidad, superando su capacidad de recuperación.
+          .col-10.col-md-8.col-lg-6.mb-4.mx-auto(data-aos="fade-right")
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-6.png', alt='Texto que describa la imagen')
+              div.mb-4
+                p.text-bold.text-center Recursos no renovables
+                p.text-small.px-4.text-center.pb-2 Los recursos no renovables, como los minerales y los combustibles fósiles, existen en cantidades finitas y no pueden ser reemplazados en escalas temporales humanas. Su explotación implica, necesariamente, un agotamiento progresivo, lo que subraya la importancia de su uso racional y la búsqueda de alternativas sostenibles.
+
+    p.mb-4 La conservación de los recursos naturales no es un tema nuevo, pero su importancia se ha intensificado en las últimas décadas, debido a la creciente evidencia de los impactos negativos de las actividades humanas en el medio ambiente. El cambio climático, la pérdida de biodiversidad, la degradación de los suelos, la contaminación del agua y el aire, y la deforestación, son solo algunos de los desafíos que enfrentamos hoy en día. Estos problemas no solo amenazan la salud de los ecosistemas, sino también la estabilidad económica y social de las comunidades humanas, especialmente aquellas que dependen directamente de los recursos naturales para su subsistencia.
+
+    .row.mb-4
+      .col-12.col-xl-5.d-none.d-xl-block(data-aos="fade-right")
+        img(src="@/assets/curso/unidad/img-7.png" alt="Texto que describa la imagen")
+      .col-12.col-xl-7(data-aos="fade-left")
+        p.mb-4 <strong>La conservación de los recursos naturales</strong> es esencial para garantizar la continuidad de la vida en el planeta y el bienestar de las sociedades humanas. Estos recursos no solo proporcionan bienes materiales fundamentales, como alimentos, agua y energía, sino que también desempeñan un papel indispensable en el funcionamiento de los sistemas ecológicos.
+        p.mb-4 <strong>Las funciones de los recursos naturales</strong> van más allá de lo visible, puesto que son responsables de procesos críticos como la regulación del clima, la purificación del aire y el agua, la polinización de cultivos, la protección contra fenómenos extremos como inundaciones y la formación del suelo, entre otros. Estas funciones, aunque a menudo pasan desapercibidas, son indispensables para el equilibrio ecológico y la calidad de vida de los seres humanos.
+      
+      .col-10.mx-auto(data-aos="fade-right")
+        .row.mb-4
+          .d-flex.align-items-center
+            div.d-flex.align-items-center.bg-verde.px-3.py-4
+              img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-8.svg', alt='Texto que describa la imagen')
+              p.pe-xl-5.mb-0 El agotamiento o la degradación de los recursos naturales tiene implicaciones negativas, tanto para el medio ambiente como para la estabilidad económica y social de las comunidades. Por ello, su conservación no es solo una responsabilidad ambiental, sino también un imperativo ético, social y económico.
+    p.mb-4 Es indispensable mencionar, los aspectos más relevantes que subrayan la importancia de la conservación de los recursos naturales:
+    h2 Ecosistemas saludables
+    p.mb-4 Los ecosistemas saludables son la base del equilibrio ambiental y la estabilidad ecológica. Cada componente de un ecosistema, desde el suelo y el agua hasta la fauna y la flora, está interconectado y depende mutuamente, para funcionar correctamente. Cuando un recurso natural se agota o degrada, esta red de interacciones se desequilibra, afectando no solo a las especies directamente relacionadas con ese recurso, sino también a otros elementos del ecosistema.
+    .row.mb-4
+      .col-12.col-xl-7(data-aos="fade-right")
+        p.mb-4 Por ejemplo, la pérdida de bosques no solo implica la desaparición de árboles, sino que también afecta a la biodiversidad que depende de ellos, al ciclo del agua y al almacenamiento de carbono. Esto puede desencadenar una cascada de efectos negativos, como la erosión del suelo, el aumento de emisiones de dióxido de carbono y la reducción de la calidad del agua. Además, los ecosistemas degradados son menos resilientes frente a perturbaciones como sequías, inundaciones o cambios en las temperaturas, lo que los hace más vulnerables al cambio climático y a otros fenómenos extremos.
+        p.mb-4 Mantener la funcionalidad de los ecosistemas también implica garantizar su capacidad para proporcionar servicios ecosistémicos esenciales. Sin ecosistemas funcionales, la humanidad perdería beneficios críticos que van desde la fertilidad del suelo, hasta la provisión de recursos como madera y agua potable.
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src="@/assets/curso/unidad/img-9.png" alt="Texto que describa la imagen")
+    
+    h2 Recursos naturales
+    p.mb-4 Los recursos naturales son la base sobre la cual se construyen las sociedades humanas, porque proporcionan los elementos esenciales para satisfacer necesidades básicas como la alimentación, el acceso al agua potable, la vivienda y la energía. Su disponibilidad determina, en gran medida, la calidad de vida de las personas y la capacidad de las comunidades para prosperar.
+    .row.mb-4
+      .col-5.d-none.d-xl-block(data-aos="fade-right")
+        img(src="@/assets/curso/unidad/img-10.png" alt="Texto que describa la imagen")
+      .col-12.col-xl-7(data-aos="fade-left")
+        p.mb-4 En muchas regiones, especialmente en países en desarrollo, las comunidades dependen directamente de los recursos naturales para su subsistencia. Por ejemplo, los agricultores necesitan suelos fértiles y agua para cultivar alimentos, mientras que las comunidades costeras dependen de los ecosistemas marinos, para su sustento. Sin embargo, cuando estos recursos se agotan o degradan, las comunidades más vulnerables son las que sufren las peores consecuencias, enfrentando problemas como la inseguridad alimentaria, la falta de agua potable y la pérdida de medios de vida. 
+        p.mb-4 Además, la creciente demanda de recursos, debido al aumento poblacional y la expansión económica, ejerce una presión adicional sobre los sistemas naturales. La conservación de los recursos naturales es, por lo tanto, esencial no solo para satisfacer las necesidades actuales, sino también para garantizar que las generaciones futuras puedan disfrutar de un acceso equitativo a estos bienes y servicios.
+    
+    h2 Biodiversidad
+    p.mb-4 La biodiversidad, que incluye la variedad de genes, especies y ecosistemas, es esencial para la resiliencia y el funcionamiento de los sistemas naturales. Los recursos naturales, como los bosques, los humedales y los océanos, son el hogar de millones de especies que dependen de estos hábitats para sobrevivir. La pérdida de estos recursos, debido a la actividad humana, como la deforestación, la contaminación y la sobreexplotación, afecta directamente a la biodiversidad, incrementando el riesgo de extinción de muchas especies.
+    .row.mb-4
+      .col-12.col-xl-7(data-aos="fade-right")
+        p.mb-4 La pérdida de biodiversidad tiene efectos en cascada, dado que cada especie juega un papel único en su ecosistema. Por ejemplo, los polinizadores, como las abejas y las mariposas, son esenciales para la producción de alimentos, pero enfrentan amenazas crecientes, debido a la destrucción de su hábitat y al uso de pesticidas. De manera similar, los depredadores tope, como los grandes felinos y los tiburones, ayudan a mantener el equilibrio en las poblaciones de otras especies, evitando el colapso de las cadenas alimenticias.
+        p.mb-4 Proteger la biodiversidad a través de la conservación de los recursos naturales, no solo es un imperativo ético, sino también una necesidad práctica para garantizar la estabilidad de los ecosistemas y los beneficios que proporcionan.
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src="@/assets/curso/unidad/img-11.png" alt="Texto que describa la imagen")
+
+    h2 Seguridad alimentaria
+    p.mb-4 La seguridad alimentaria depende directamente de la disponibilidad y calidad de recursos naturales como el agua, el suelo fértil y los ecosistemas saludables. La agricultura, que es la principal fuente de alimentos para la población mundial, requiere un suministro constante de agua dulce y suelos ricos en nutrientes. Sin embargo, la degradación de estos recursos pone en riesgo la capacidad de los sistemas agrícolas, para satisfacer la demanda de alimentos, especialmente en un contexto de crecimiento poblacional.
+    .row.mb-4
+      .col-5.d-none.d-xl-block(data-aos="fade-right")
+        img(src="@/assets/curso/unidad/img-12.png" alt="Texto que describa la imagen")
+      .col-12.col-xl-7(data-aos="fade-left")
+        p.mb-4 La sobreexplotación del agua para riego, la erosión del suelo debido a prácticas agrícolas insostenibles y la contaminación de los recursos naturales, afectan negativamente la productividad agrícola. Esto no solo amenaza la seguridad alimentaria global, sino que también impacta, de manera desproporcionada, a las comunidades más vulnerables, que ya enfrentan desafíos relacionados con el acceso a alimentos suficientes y nutritivos. (Mora, 2013, p. 14)
+
+    .row.mb-4.borde-gris-top.pt-5
+      .col-12.col-xl-7(data-aos="fade-right")
+        p.mb-4 Debemos tener en cuenta que el cambio climático es uno de los desafíos más significativos del siglo XXI, y la conservación de los recursos naturales juega un papel crucial en su mitigación. Recursos como los bosques, los suelos y los océanos, actúan como sumideros de carbono, absorbiendo dióxido de carbono de la atmósfera y ayudando a reducir los efectos del calentamiento global. 
+        p.mb-4 Los bosques, por ejemplo, almacenan grandes cantidades de carbono en su biomasa y en el suelo. Sin embargo, la deforestación y la degradación forestal liberan este carbono almacenado, contribuyendo al aumento de las concentraciones de gases de efecto invernadero, en la atmósfera. De manera similar, los suelos saludables tienen la capacidad de retener carbono, pero las prácticas agrícolas insostenibles y la erosión, reducen su capacidad de almacenamiento.
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src="@/assets/curso/unidad/img-13.png" alt="Texto que describa la imagen")
 
     .row.mb-4
       .col-5.d-none.d-xl-block(data-aos="fade-right")
-        img(src="@/assets/curso/unidad/img-12.png", alt="Texto que describa la imagen")
+        img(src="@/assets/curso/unidad/img-14.png" alt="Texto que describa la imagen")
       .col-12.col-xl-7(data-aos="fade-left")
-        p.mb-4 Estos tres componentes representan las áreas claves que deben ser consideradas y equilibradas para permitir un crecimiento continuo y sustentable, evitando daños que sean irreversibles para nuestro planeta y sus recursos.
+        p.mb-4 Los ecosistemas saludables son más resilientes frente a fenómenos climáticos extremos, como huracanes, sequías o inundaciones. Por ejemplo, los humedales y manglares ayudan a proteger las costas de la erosión y actúan como amortiguadores, frente a tormentas.
+        p.mb-4 Cuando conservamos estos recursos, se fortalecen las capacidades de adaptación y mitigación al cambio climático, reduciendo los riesgos para las comunidades humanas y los ecosistemas.
         .bg-rojo.p-4
-          span Una de las definiciones más ampliamente aceptadas indica que “el desarrollo sostenible implica la gestión y conservación de los recursos naturales, así como la orientación de los cambios tecnológicos e institucionales, para asegurar el bienestar humano, tanto en el presente como en el futuro” (United Nations, 2020). 
-    
-    p.mb-4 El desarrollo sostenible se basa en una serie de principios fundamentales que guían su implementación y promoción en distintos contextos:
-    ImagenInfografica.color-secundario.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/unidad/img-13.png', alt='Texto que describa la imagen')
-
-      .tarjeta.bg-rojo.p-4(x="20%" y="73.4%" numero="+")
-        .h5.mb-2 Responsabilidad global y local
-        p La sostenibilidad es un esfuerzo colectivo que requiere acciones a nivel global y local. Mientras que los acuerdos internacionales pueden establecer normas y objetivos generales, las comunidades locales tienen la responsabilidad de adaptar estas directrices, a sus contextos específicos. De esta manera, el desarrollo sostenible se convierte en una tarea compartida que necesita la colaboración de todos los sectores de la sociedad, incluidos gobiernos, empresas, organizaciones no gubernamentales y ciudadanos. La cooperación entre diferentes niveles de gobierno y comunidades, es vital para alcanzar objetivos globales de sostenibilidad.
-      .tarjeta.bg-rojo.p-4(x="20%" y="35.4%" numero="+")
-        .h5.mb-2 Participación y transparencia
-        p Es esencial que las decisiones relacionadas con el desarrollo sostenible, se tomen de forma inclusiva y participativa. Esto implica que todos los actores involucrados, desde las comunidades locales hasta las empresas y los gobiernos, deben tener voz en el proceso de toma de decisiones. Además, la transparencia en la gestión de recursos y la implementación de políticas sostenibles, es clave para garantizar la rendición de cuentas y la confianza de la sociedad. La participación activa y el acceso a la información, fortalecen la gobernanza y permiten que las decisiones sean más efectivas y justas.
-      .tarjeta.bg-rojo.p-4(x="80%" y="35.4%" numero="+")
-        .h5.mb-2 Equidad intergeneracional
-        p Este principio destaca la responsabilidad de la generación actual de no agotar los recursos que futuras generaciones necesitarán. La idea es la de mantener un equilibrio que permita la continuidad de la vida y el bienestar de la humanidad, sin comprometer las posibilidades de desarrollo de quienes vivirán en el futuro. En este sentido, se promueve una utilización prudente de los recursos naturales que permita su renovación.
-      .tarjeta.bg-rojo.p-4(x="80%" y="73.4%" numero="+")
-        .h5.mb-2 Enfoque holístico e integrado
-        p El desarrollo sostenible no se centra en un único aspecto, sino que aborda, de manera conjunta, problemas económicos, sociales y ambientales. Esto significa que el desarrollo económico debe ir de la mano con la equidad social y la protección del medio ambiente. Un ejemplo claro de este principio se observa cuando las políticas que fomentan la creación de empleo, también consideran el impacto ambiental de las industrias que se van a desarrollar, así como las condiciones laborales de los trabajadores. Esta visión integral asegura que el desarrollo no ocurra a expensas de otros factores cruciales para el bienestar.
+          span Por lo tanto, conservar los recursos naturales es fundamental para garantizar que los sistemas agrícolas puedan continuar produciendo alimentos de manera sostenible y satisfacer las necesidades de una población en constante crecimiento. 
 
     #t_1_2.titulo-segundo
       div.d-flex
         span.me-3 1.2  
-        h2 Diferencias entre sostenibilidad y sustentabilidad
-    
-    p.mb-4  Los términos sostenibilidad y sustentabilidad son utilizados, frecuentemente, como sinónimos en discursos relacionados con el medio ambiente, el desarrollo económico y la equidad social. Sin embargo, aunque ambos conceptos comparten similitudes y están estrechamente relacionados, tienen matices que los diferencian y que son importantes para entender su aplicación en diferentes contextos. 
-    p.mb-4 A continuación, se profundiza en las definiciones de cada uno, sus orígenes y las diferencias claves que los separan.
-    p.mb-4 Comencemos con la sostenibilidad:
+        h2 Cambio climático 
 
     .row.mb-4
-      .col-12.col-lg-7(data-aos="fade-right")
-        AcordionA(tipo="b")
-          .div(titulo="¿Qué es?")
-            p La sostenibilidad se refiere a la capacidad de mantener o prolongar un proceso, actividad o estado en el tiempo, sin agotar los recursos o causar un daño irreversible al medio ambiente. El concepto surge de la necesidad de asegurar que las actividades humanas, especialmente aquellas relacionadas con el desarrollo económico, no comprometan la capacidad de las generaciones futuras, para satisfacer sus propias necesidades.
-          .div(titulo="Pilares fundamentales")
-            p La sostenibilidad está basada en tres pilares fundamentales: el económico, el social y el ambiental, que deben coexistir y apoyarse mutuamente para lograr un equilibrio a largo plazo.
-      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
-        img(src='@/assets/curso/unidad/img-14.png', alt='Texto que describa la imagen')
-    
-    .row.mb-4
-      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-15.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-7(data-aos="fade-left")
-        AcordionA(tipo="b")
-          .div(titulo="¿Qué implica?")
-            p En la práctica, la sostenibilidad implica diseñar sistemas y procesos que sean regenerativos y resilientes. Por ejemplo, en el contexto empresarial, las prácticas sostenibles pueden incluir la adopción de energías renovables, la gestión eficiente de recursos hídricos, el uso de materiales reciclables y la reducción de emisiones de carbono. Además, la sostenibilidad también aborda aspectos sociales, como la promoción de la igualdad, el bienestar de las comunidades y el respeto por los derechos humanos.
-          .div(titulo="Ejemplo")
-            p Un ejemplo que permite comprender el término sostenibilidad, consiste en una empresa de producción textil que adopta un modelo de sostenibilidad podría transformar todo su ciclo de vida del producto para minimizar el impacto ambiental. Esto incluiría el uso de materiales reciclables y biodegradables, la reducción del uso de agua y energía en la producción, la eliminación de residuos tóxicos, el diseño de productos que sean fáciles de reciclar al final de su vida útil, y la implementación de programas de responsabilidad social que aseguren condiciones laborales justas para todos los trabajadores. Aquí, la sostenibilidad implica la transformación integral de las prácticas, para lograr un equilibrio entre lo económico, lo social y lo ambiental.
+      .col-12.col-xl-7(data-aos="fade-right")
+        p.mb-4 El cambio climático es el resultado de múltiples factores que alteran el equilibrio climático de la Tierra. Aunque históricamente se han presentado variaciones naturales en el clima debido a procesos geológicos, astronómicos y atmosféricos, el cambio climático actual está  principalmente impulsado por actividades humanas. Estas actividades han intensificado significativamente las  concentraciones de gases de efecto invernadero (GEI) en la atmósfera, alterando los patrones climáticos y desencadenando fenómenos sin precedentes en su velocidad y magnitud. (Mora, 2013, p. 14)
+        .bg-rojo.p-4.mb-4
+          span El cambio climático es uno de los fenómenos más complejos y multifacéticos que enfrenta el planeta en la actualidad. Si bien el clima de la Tierra siempre ha estado sujeto a cambios naturales a lo largo de milenios, las alteraciones actuales en los patrones climáticos, son diferentes en velocidad, magnitud y origen. Estas transformaciones, conocidas como cambio climático antropogénico, están directamente relacionadas con actividades humanas que han acelerado significativamente, el calentamiento global y alterado los sistemas naturales del planeta. Este fenómeno tiene sus raíces en un modelo de desarrollo insostenible que prioriza la extracción y el consumo de recursos sobre la conservación ambiental y la equidad intergeneracional. 
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src="@/assets/curso/unidad/img-15.png" alt="Texto que describa la imagen")
+      
+    p.mb-4 El cambio climático actual se deriva principalmente del aumento de las concentraciones de gases de efecto invernadero (GEI) en la atmósfera, producto de actividades como la quema de combustibles fósiles, la deforestación, la agricultura intensiva, la industrialización masiva y la gestión inadecuada de residuos. Estas actividades, aunque fundamentales para la economía global, tienen efectos devastadores sobre el equilibrio climático y los ecosistemas.
+    p.mb-4 A continuación, se profundiza en las principales causas del cambio climático, analizando, tanto sus orígenes como sus mecanismos de acción:
 
-    p.mb-4 Y finalicemos con la sustentabilidad:
-
-    .row.mb-4
-      .col-12.col-lg-7(data-aos="fade-right")
-        AcordionA(tipo="b")
-          .div(titulo="¿Qué es?")
-            p La sustentabilidad, aunque similar a la sostenibilidad, pone un énfasis particular en la capacidad de los sistemas para sostenerse a sí mismos a lo largo del tiempo, utilizando, de manera eficiente y responsable, los recursos disponibles sin agotarlos. La palabra “sustentable” proviene del latín “sustentare”, que significa sostener, soportar o mantener. Este término se asocia frecuentemente, con la gestión de recursos naturales y la capacidad de los ecosistemas para autorregenerarse , asegurando que los recursos que se extraen puedan ser reemplazados o regenerados naturalmente.
-          .div(titulo="¿En qué se centra?")
-            p A diferencia de la sostenibilidad, que aborda un enfoque más amplio e integrado, la sustentabilidad se centra más en la gestión responsable y eficiente de los recursos. En el contexto de la sustentabilidad, se prioriza el uso prudente de los recursos naturales para garantizar que no se agoten a un ritmo más rápido del que la naturaleza puede regenerarlos. Por ejemplo, en el ámbito agrícola, la agricultura sustentable implica prácticas que conservan la fertilidad del suelo, usan agua de manera eficiente y reducen la dependencia de insumos químicos que pueden dañar el medio ambiente.
-      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
-        img(src='@/assets/curso/unidad/img-16.png', alt='Texto que describa la imagen')
-
+    .row.position-relative.mb-5.py-4.bg-azul.bg-full-width
+      div.px-4.px-md-5.py-md-3
+        SlyderA(tipo="b").bg-white
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-right")
+              p.text-bold Revolución industrial
+              p Desde la Revolución Industrial, el uso de combustibles fósiles como el carbón, el petróleo y el gas natural, ha sido la base del desarrollo económico y social. Estas fuentes de energía, altamente concentradas y eficaces, han permitido avances tecnológicos, la expansión de las industrias y la electrificación de las ciudades. Sin embargo, la quema de combustibles fósiles libera grandes cantidades de dióxido de carbono (CO₂) a la atmósfera, el principal gas de efecto invernadero, responsable del calentamiento global.
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-left")
+              figure
+                img(src='@/assets/curso/unidad/img-16.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.text-bold Sector energético 
+              p El sector energético es el mayor emisor de CO₂, puesto que aproximadamente el 75 % de la electricidad mundial se genera mediante la quema de carbón y gas natural. Además, el transporte, que depende casi exclusivamente de combustibles derivados del petróleo como la gasolina y el diésel, contribuye significativamente a las emisiones de CO₂. Este impacto se ve amplificado por el crecimiento del parque vehicular, el aumento de la demanda de transporte aéreo y marítimo, y la falta de transición hacia sistemas de transporte más limpios.
+            .d-none.d-lg-block.col-md-6.col-lg-4
+              figure
+                img(src='@/assets/curso/unidad/img-17.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            p.mb-4.text-bold Bosques
+            p.mb-4 Los bosques, que cubren aproximadamente el 31 % de la superficie terrestre, son uno de los sumideros de carbono más importantes del planeta. Absorben grandes cantidades de CO₂ de la atmósfera, mediante el proceso de fotosíntesis y almacenan este carbono en su biomasa y en el suelo. Sin embargo, la deforestación, causada por la expansión agrícola, la ganadería, la tala ilegal y la urbanización, ha reducido drásticamente la cobertura forestal a nivel global.
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.mb-4 Cuando los árboles son talados o quemados, el carbono almacenado en ellos se libera a la atmósfera, aumentando las concentraciones de GEI. Además, la deforestación elimina la capacidad de los bosques para absorber carbono en el futuro, lo que agrava aún más el problema. Se estima que la deforestación y la degradación de los ecosistemas forestales representan aproximadamente el 10 % de las emisiones globales de GEI.
+              p La pérdida de bosques también tiene efectos secundarios que contribuyen al cambio climático. Por ejemplo, la deforestación altera los ciclos hidrológicos, disminuye la capacidad del suelo para retener agua y aumenta la erosión, lo que puede exacerbar fenómenos climáticos extremos como inundaciones y sequías.
+            .d-none.d-lg-block.col-md-6.col-lg-4
+              figure
+                img(src='@/assets/curso/unidad/img-18.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            p.mb-4.text-bold Agricultura
+            p.mb-4 La agricultura, aunque esencial para la supervivencia humana, es una de las actividades económicas más intensivas en términos de emisiones de GEI. Este sector es responsable de una buena parte de las emisiones de metano (CH₄) y óxido nitroso (N₂O), dos gases con un potencial de calentamiento global, mucho mayor que el CO₂.
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.mb-4  El metano se genera principalmente a través de la fermentación entérica del ganado, un proceso digestivo que ocurre en animales rumiantes como vacas, ovejas y cabras. También se libera en grandes cantidades durante el cultivo de arroz en campos inundados, donde la descomposición anaeróbica de materia orgánica produce  este gas. Por su parte, el óxido nitroso proviene del uso excesivo de fertilizantes químicos ricos en nitrógeno, que liberan este gas cuando se descomponen en el suelo.
+              p La agricultura intensiva también contribuye indirectamente al cambio climático a través de la deforestación, para expandir las tierras de cultivo y pastoreo, lo que agrava la pérdida de sumideros de carbono y la biodiversidad.
+            .d-none.d-lg-block.col-md-6.col-lg-4
+              figure
+                img(src='@/assets/curso/unidad/img-19.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.mb-4.text-bold Residuos sólidos
+              p.mb-4  Cuando los residuos sólidos no se gestionan adecuadamente, representan una fuente importante de emisiones de GEI. En los vertederos, la descomposición de la materia orgánica en condiciones anaeróbicas genera metano, un gas que tiene un impacto climático 25 veces más en un periodo de 100 años, que el CO₂. La quema de residuos, una práctica común en muchos países en desarrollo, libera cantidades de dióxido de carbono y otros contaminantes tóxicos, que contribuyen al calentamiento global y afectan la calidad del aire.
+              p  Este problema se ve exacerbado por el aumento de la población y los patrones de consumo insostenibles, que generan mayores volúmenes de residuos. La falta de sistemas eficientes de reciclaje y compostaje, impide que los materiales reutilizables y orgánicos se desvíen de los vertederos, lo que agrava las emisiones de GEI.
+            .d-none.d-lg-block.col-md-6.col-lg-4
+              figure
+                img(src='@/assets/curso/unidad/img-20.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.mb-4.text-bold Industrias manufactureras
+              p Las industrias manufactureras, como la producción de cemento, acero y productos químicos, son responsables de una parte significativa de las emisiones globales de CO₂. Estas emisiones provienen tanto del consumo intensivo de energía, como de los procesos químicos inherentes a la fabricación de estos materiales. Por ejemplo, la producción de cemento libera CO₂ cuando el carbonato de calcio (CaCO₃) se calienta para producir cal.
+            .d-none.d-lg-block.col-md-6.col-lg-4
+              figure
+                img(src='@/assets/curso/unidad/img-21.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.mb-4.text-bold Globalización
+              p.mb-4  La globalización ha aumentado la demanda de transporte de mercancías, lo que ha intensificado las emisiones relacionadas con la fabricación y el transporte de bienes. Este impacto se ve amplificado por el uso de materiales no reciclables y la falta de estándares ambientales estrictos en muchos países.
+              p  El crecimiento de las ciudades y la expansión urbana sin planificación adecuada, han llevado a un aumento en el consumo de energía, destrucción de ecosistemas y emisión de GEI. Las áreas urbanas, que albergan a más de la mitad de la población mundial, son responsables del 70 % de las emisiones globales de CO₂ debido al transporte, generación de electricidad y la construcción. El desarrollo desplaza ecosistemas que actúan como sumideros de carbono, lo que aumenta los impactos del cambio climático.
+            .d-none.d-lg-block.col-md-6.col-lg-4
+              figure
+                img(src='@/assets/curso/unidad/img-22.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.mb-4.text-bold Modelo económico global
+              p El cambio climático también está profundamente ligado al modelo económico global, que prioriza el crecimiento económico a corto plazo, sobre la sostenibilidad a largo plazo. La dependencia de fuentes de energía intensivas en carbono, la explotación excesiva de los recursos naturales y la falta de incentivos para la transición hacia tecnologías limpias, han perpetuado las emisiones de GEI. Este modelo, combinado con una distribución desigual de los recursos y el acceso a tecnologías sostenibles, ha dificultado la implementación de soluciones efectivas en muchas regiones del mundo.
+            .d-none.d-lg-block.col-md-6.col-lg-4
+              figure
+                img(src='@/assets/curso/unidad/img-23.png', alt='Texto que describa la imagen')
     .row.mb-5
-      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-17.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-7(data-aos="fade-left")
-        AcordionA(tipo="b")
-          .div(titulo="Aplicación")
-            p La sustentabilidad también se aplica a otros aspectos de la vida diaria, como el consumo responsable de energía, agua y alimentos, y la promoción de hábitos que reduzcan la generación de residuos. Este concepto tiene un enfoque más operativo y pragmático, centrado en la autogestión y el mantenimiento de la capacidad productiva de los ecosistemas, y suele ser utilizado en áreas como la agricultura, la silvicultura, la pesca y la gestión de recursos naturales.
-          .div(titulo="Ejemplo")
-            p Un ejemplo que permite comprender el término sustentabilidad consiste en un agricultor que adopta prácticas de agricultura sustentable, puede utilizar técnicas como la rotación de cultivos, el compostaje de residuos orgánicos y el uso de sistemas de riego eficientes para conservar el agua. La sustentabilidad, en este contexto, se refiere a mantener la fertilidad del suelo y la capacidad del sistema agrícola, para producir alimentos de manera indefinida, sin agotar los recursos ni depender de insumos químicos que dañen el medio ambiente. Aquí, el énfasis está en la autogestión del sistema y en mantener la capacidad productiva de manera eficiente.
+      .d-flex.align-items-center
+        div.d-flex.align-items-center.bg-verde.px-3.py-4
+          img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-24.svg', alt='Texto que describa la imagen')
+          p.pe-xl-5.mb-0 En otras palabras, las causas del cambio climático son múltiples y complejas, pero todas convergen en un sistema humano que ha alterado profundamente los ciclos naturales del planeta. La quema de combustibles fósiles, la deforestación, la agricultura intensiva, la gestión inadecuada de residuos y los procesos industriales, son las principales fuentes de emisiones de gases de efecto invernadero. Estas actividades, impulsadas por un modelo económico basado en el consumo masivo y la explotación de recursos, han llevado a un desequilibrio climático que pone en riesgo la estabilidad ecológica, social y económica de la tierra.  Abordar estas causas requiere un cambio transformador en la forma en que producimos, consumimos y gestionamos los recursos, priorizando la sostenibilidad y la equidad a nivel global.
 
     .bg-full-width.border-top-9-azul
       .px-4.px-md-5.pt-5.pb-0
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
+            // Tema 1.1
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/66025") Morales, C. (2005). Pobreza, desertificación y degradación de los recursos naturales. B - CEPAL.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/75126") Quintero Soto, M. L. (2004). Recursos naturales y desarrollo sustentable: reflexiones en torno a su problemática. Editorial Miguel Ángel Porrúa.
+
+            // Tema 1.2
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/59587") Alonso Oroza, S. (2016). ¿Hablamos de cambio climático?. Fundación BBVA.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/71190") Mance, H. & Rodríguez Becerra, M. (2009). Cambio climático: lo que está en juego. FLACSO.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/71059") Barrera Rey, X. Mance, H. Rodríguez Becerra, M. & García Arbeláez, C. (2015). Cambio climático: lo que está en juego. FLACSO.
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/76968") Esposito Guevara, C. A. (2016). Crisis socioambiental y cambio climático. CLACSO.
+
+            // Videos
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=_Rr6GmIiohA") CoSustenta UV. (2023, 7 enero). ¿Sustentable o sostenible? [Vídeo]. YouTube.
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=i-kTva6AXYA") Facultad de Estudios a Distancia UMNG. (2021). Regulación de los recursos naturales de Colombia [Vídeo]
+
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=mRdKQGwAhak") Jorge Antonio Asprón Ramírez. (2023, 7 octubre). Desarrollo Sustentable - Escenarios de la sustentabilidad [Vídeo].Youtube.
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/124252") Innovación y Cualificación, S. L. (2019). Gestión ambiental y desarrollo sostenible: ( ed.). IC Editorial. 
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/164535") Correa Restrepo, F. (2017). Desarrollo sostenible: revisión histórica desde la economía: ( ed.). Ediciones Unaula.  
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/123060") Jiménez Herrero, L. M. (2018). Desarrollo sostenible: transición hacia la coevolución global: ( ed.). Difusora Larousse - Ediciones Pirámide. 
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=fPyNZHZXo80") DCCD UAM Unidad Cuajimalpa. (2012). Programa 1 - ¿Qué es el cambio climático? [Vídeo]
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
-
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 
 </template>
