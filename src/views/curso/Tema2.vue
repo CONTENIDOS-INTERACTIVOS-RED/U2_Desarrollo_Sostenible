@@ -33,7 +33,7 @@
       div.px-4.px-md-5.py-md-3
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            <iframe width="1903" height="748" src="https://www.youtube.com/embed/ukG1Lqpyv64" title="La planificación para la comercialización" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
    
     #t_2_2.titulo-segundo
       div.d-flex
@@ -73,7 +73,7 @@
           .d-flex.align-items-center
             div.d-flex.align-items-center.bg-verde.px-3.py-4
               img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-29.svg', alt='Texto que describa la imagen')
-              p.pe-xl-5.mb-0 La promoción de la inclusión requiere un enfoque multidimensional y la colaboración de múltiples actores, incluyendo gobiernos, sector privado, sociedad civil y comunidades. Es esencial implementar políticas integrales que aborden las causas subyacentes de la exclusión y promuevan la participación activa de los grupos marginados, en el diseño e implementación de soluciones .
+              p.pe-xl-5.mb-0 La promoción de la inclusión requiere un enfoque multidimensional y la colaboración de múltiples actores, incluyendo gobiernos, sector privado, sociedad civil y comunidades. Es esencial implementar políticas integrales que aborden las causas subyacentes de la exclusión y promuevan la participación activa de los grupos marginados, en el diseño e implementación de soluciones.
 
     #t_2_3.titulo-segundo
       div.d-flex

@@ -12,7 +12,7 @@
       .col-12.col-md-7(data-aos="fade-left")
         .bg-rojo.p-4
           p.mb-4 A continuación, el PDF La dimensión ambiental del desarrollo sostenible, aborda la dimensión ambiental del desarrollo sostenible, destacando la importancia de equilibrar las necesidades humanas con los límites del planeta. Se estudian las problemáticas asociadas al crecimiento poblacional, la pérdida de biodiversidad y el cambio climático, junto con estrategias para proteger los ecosistemas y promover su resiliencia. Este enfoque integral busca garantizar un futuro sostenible, priorizando la educación ambiental, la cooperación internacional y la implementación de políticas responsables.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_La dimensión ambiental del desarrollo sostenible.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> La dimensión ambiental del desarrollo sostenible
 

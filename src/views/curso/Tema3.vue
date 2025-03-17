@@ -34,7 +34,7 @@
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           p.mb-5 El desarrollo económico responsable es un enfoque transformador que busca equilibrar el progreso económico con la sostenibilidad ambiental y la equidad social. Este paradigma reconoce la interdependencia entre estos tres pilares y propone soluciones que promuevan un crecimiento inclusivo, ético e innovador. En el PDF Desarrollo económico responsable, se profundiza en los principales componentes de este modelo, destacando la transición hacia una economía baja en carbono, la adopción de la economía circular, la importancia de la innovación tecnológica, el papel de las empresas socialmente responsables y el impacto de las políticas públicas en la promoción de prácticas sostenibles. Con esta visión integral, el desarrollo económico responsable se presenta como una respuesta a los desafíos globales actuales, abriendo oportunidades para construir un futuro más resiliente y equitativo.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Desarrollo económico responsable.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Desarrollo económico responsable
              
@@ -129,6 +129,11 @@
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
+    .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
+      .p-4.p-md-5
+        #Actividad
+          <Actividad :cuestionario='cuestionario'/>
+
 </template>
 
 <script>
@@ -138,6 +143,171 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Desarrollo Sostenible y Economía',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto: '¿Qué característica define a los ecosistemas resilientes?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Su capacidad para resistir y recuperarse ante perturbaciones.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Su dependencia exclusiva de las actividades humanas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Su limitado aporte a los servicios ecosistémicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Su incapacidad para adaptarse al cambio climático.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto: '¿Qué es la inclusión financiera?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Limitar los servicios financieros a grandes empresas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Garantizar el acceso equitativo a servicios financieros básicos para todas las personas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Excluir a las comunidades rurales del sistema financiero.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Priorizar la especulación en los mercados financieros.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto: '¿Qué enfoque distingue al desarrollo económico responsable?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Explotar intensivamente los recursos naturales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Priorizar el crecimiento económico sin límites ecológicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Generar riqueza respetando los límites ambientales y sociales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Excluir a las comunidades locales de las decisiones económicas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Qué efecto tiene la urbanización no planificada sobre los recursos naturales?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Conserva la biodiversidad.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Reduce la contaminación atmosférica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Aumenta la presión sobre recursos como el agua y el suelo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Mejora la calidad de los ecosistemas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto: '¿Qué característica define un enfoque de economía circular?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Uso intensivo de recursos no renovables.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Minimización de residuos y maximización de la reutilización de materiales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Crecimiento económico basado en la extracción de recursos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Exclusión de estrategias de reciclaje.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
