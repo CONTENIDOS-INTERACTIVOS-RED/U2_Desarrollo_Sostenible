@@ -33,7 +33,7 @@
       div.px-4.px-md-5.py-md-3
         figure
           .video
-            <iframe width="1903" height="748" src="https://www.youtube.com/embed/ukG1Lqpyv64" title="La planificación para la comercialización" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="1905" height="748" src="https://www.youtube.com/embed/gB_02I2nXNY" title="El medioambiente y las desigualdades mundiales II: El Desarrollo Sostenible" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
    
     #t_2_2.titulo-segundo
       div.d-flex
